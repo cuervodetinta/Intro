@@ -17,7 +17,7 @@ st.subheader("dos fokin columnas wow")
 
 col1, col2 = st.columns(2)
 
-will col1:
+with col1:
   st.subheader("primera fokin columns")
   st.write("vea esooooo")
   resp = st.checkbox('sioque')
