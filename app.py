@@ -12,3 +12,15 @@ st.image(image, caption='miren a mi gata')
 
 texto = st.text_input('bueno pero', 'y se sabe el chiste del bus')
 st.write('pero', texto)
+
+st.subheader("dos fokin columnas wow")
+
+col1, col2 = st.columns(2)
+
+will col1:
+  st.subheader("primera fokin columns")
+  st.write("vea esooooo")
+  resp = st.checkbox('sioque')
+  if resp: 
+    st.write("SIZAAAA")
+
