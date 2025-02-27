@@ -39,3 +39,9 @@ if st.button("oprima o miedo"):
   st.write("YAYYYY")
 else:
   st.write("MERA LOCAAAAAAAAAAAA")
+
+st.subheader("papapapapapap")
+in_mod = st.selectbox(
+  "pero eliga una", 
+  ("princesa número uno", "princesa número dos", "princesa número tres"),
+)
