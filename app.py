@@ -45,3 +45,10 @@ in_mod = st.selectbox(
   "pero eliga una", 
   ("princesa número uno", "princesa número dos", "princesa número tres"),
 )
+if in_mod == "princesa número uno":
+  set_mod = "aplaudale aaa cenicientaaaaa"
+elif in_mod == "princesa número dos":
+  set_mod = "vamos denle un aplauso aaaa blancaaaanieveeeeees"
+elif in_mod == "princesa número tres":
+  set_mod = "será suya para rescatar la princesa fiooooonaaaaaa"
+st.write("lord farquaad,", set_mod)
