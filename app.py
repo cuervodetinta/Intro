@@ -33,3 +33,9 @@ with col2:
     st.write('oprimiste la opción 2 mera loca')
   if modo == 'opción 3':
     st.write('oprimiste la opción 3 mera loca')
+
+st.subheader("así se usa un botón")
+if st.button("oprima o miedo"):
+  st.write("YAYYYY")
+else:
+  st.write("MERA LOCAAAAAAAAAAAA")
